@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vault Combination</title>
+
+</head>
+<body>
+  <h1>Welcome to the vault</h1>
+  <p>You have been chosen to open an important vault. Here is the secret combination:</p>
+
+  <section id="combination">Combination will display here</section>
+
+  <script>
+    const message =  "The secret combination is:"; 
+    const code1 = 5 + 5; 
+    const code2 = 80 / 2; 
+    const code3 = 100 - 61; 
+    const combination = `${code1} - ${code2} - ${code3}`; 
+
+    document.getElementById("combination").innerHTML = message + combination;
+
+  </script>
+  
+</body>
+</html>
