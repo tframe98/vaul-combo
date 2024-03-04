@@ -19,11 +19,7 @@ const code3 = 100 - 61; //calculate the third part of  hte combination to get 39
 
 const combination = `code1 - code2 - code 3`; //combine the combination
 
-function displayCombination() {
-  document.getElementById("combination").innerHTML = message + combination;
-} // display on page
-
-window.onload = displayCombination; //function to display the combination when page loads
+alert(message + combination); //display combo with alert
 
 
 
